@@ -1,0 +1,10 @@
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<h1> MY TASKS </h1>
+  <ul>
+  <% @tasks.each do |task| %>
+    <li> <%= task.title %> </li>
+<% end %>
+
+  <!-- <i class="fa fa-times"></i> %>
+  return <i class="fa fa-check"></i> -->
